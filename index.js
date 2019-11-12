@@ -16,7 +16,7 @@ const titleCased = () => {
   return tutorials.map(phraseFixer)
 }
 
-function phraseFixer(phrase){ 
+function phraseFixer(phrase){
   let final = [];
   let final2 = [];
   final = phrase.toLowerCase().split(' ');
@@ -25,5 +25,3 @@ function phraseFixer(phrase){
 return final2.join(' ');
 
   }
-
-
